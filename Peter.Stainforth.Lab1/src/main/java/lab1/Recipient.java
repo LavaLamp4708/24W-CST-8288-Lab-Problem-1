@@ -1,5 +1,8 @@
 package lab1;
 
+/**
+ * Model class for the recipient table. Contains setters, getters and an empty and full constructor.
+ */
 public class Recipient {
     private int awardID;
     private String name;
