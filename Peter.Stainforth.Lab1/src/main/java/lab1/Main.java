@@ -139,10 +139,9 @@ public class Main {
 
         if(isEmptyRS){
             printIfEmpty(randomYear);
-            try {connection.close();} catch(SQLException e){e.printStackTrace();}
         } else {
             printResults(recipientResultsList);
-            try {connection.close();} catch(SQLException e){e.printStackTrace();}
         }
+        try {connection.close();} catch(SQLException e){e.printStackTrace();}
     }
 }
