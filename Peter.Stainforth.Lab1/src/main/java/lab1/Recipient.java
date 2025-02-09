@@ -7,9 +7,20 @@ public class Recipient {
     private String city;
     private String category;
 
+    /**
+     * Empty constructor.
+     */
     public Recipient() {
     }
 
+    /**
+     * Full constructor.
+     * @param awardID
+     * @param name
+     * @param year
+     * @param city
+     * @param category
+     */
     public Recipient(int awardID, String name, int year, String city, String category) {
         this.awardID = awardID;
         this.name = name;
