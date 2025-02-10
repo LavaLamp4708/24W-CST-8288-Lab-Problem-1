@@ -5,19 +5,19 @@
 package lab1;
 
 import java.io.*;
-import java.nio.file.*;
 import java.security.SecureRandom;
 import java.sql.*;
 import java.util.*;
 
 /**
  * Main class containing the logic that generates a random year between 1987 and 2020 and prints rows related to the year from the Recipients table along with the metadata of that table.
- * @author peter
+ * @author Peter Stainforth
+ * @studentNumber 041121409
  */
 public class Main {
     /**
      * Connects to the database using a Properties object containing properties loaded from the 
-     * <a href="../../../classes/lab1/database.properties">database.propeties </a>
+     * <a href="../../../classes/lab1/database.properties">database.properties </a>
      * file.
      * @param props
      * @return {@link java.sql.Connection}

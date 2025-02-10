@@ -99,6 +99,13 @@
           <version>3.4.1</version>
           <configuration>
             <show>private</show>
+            <tags>
+              <tag>
+                <name>studentNumber</name>
+                <placement>a</placement>
+                <head>Student Number:</head>
+              </tag>
+            </tags>
           </configuration>
         </plugin>
       </plugins>

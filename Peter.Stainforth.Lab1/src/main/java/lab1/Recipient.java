@@ -2,6 +2,8 @@ package lab1;
 
 /**
  * Model class for the recipient table. Contains setters, getters and an empty and full constructor.
+ * @author Peter Stainforth
+ * @studentNumber 041121409
  */
 public class Recipient {
     private int awardID;
